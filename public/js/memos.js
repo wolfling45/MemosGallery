@@ -5,7 +5,7 @@ console.log(
 );
 photos();
 function photos() {
-  fetch("https://memos.smitten.top/api/v1/memo?creatorId=1&tag=相册")
+  fetch("https://mm.918816.xyz/api/v1/memo?creatorId=1&tag=相册")
     .then((res) => res.json())
     .then((data) => {
       // 记得修改memos地址
